@@ -15,6 +15,6 @@
   "optionalDependencies": {
     "eslint": "^3.4.0",
     "eslint-config-eslint": "^3.0.0",
-    "eslint-plugin-babel": "3.3.0",
+    "eslint-plugin-babel": "3.3.0"
   }
 }
