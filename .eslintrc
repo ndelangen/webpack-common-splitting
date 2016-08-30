@@ -1,0 +1,27 @@
+{
+  "extends": "eslint",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "import",
+    "lodash",
+    "node",
+    "babel"
+  ],
+  "env": {
+    "es6": true,
+    "node": true,
+    "browser": true
+  },
+  "rules": {
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "no-underscore-dangle": ["error", { "allow": ["__ENVIRONMENT__", "__INITIAL_STATE__", "__SERVERLOCATION__", "__PORT__"] }],
+    "no-unused-vars": "warn",
+    "no-shadow": "warn",
+    "require-jsdoc": "warn",
+    "func-style": ["error", "expression"],
+    "no-undefined": ["off"],
+    "comma-dangle": [1, "only-multiline"],
+  },
+}

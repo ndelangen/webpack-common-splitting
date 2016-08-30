@@ -1,0 +1,20 @@
+{
+  "name": "webpack-splitting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "cd ./dist && python -m SimpleHTTPServer"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^1.13.2"
+  },
+  "optionalDependencies": {
+    "eslint": "^3.4.0",
+    "eslint-config-eslint": "^3.0.0",
+    "eslint-plugin-babel": "3.3.0",
+  }
+}

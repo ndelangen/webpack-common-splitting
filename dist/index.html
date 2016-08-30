@@ -1,0 +1,13 @@
+<title>Testing multiple CommonsChunkPlugin + filtering via minChunks callback</title>
+
+<h1>Testing multiple CommonsChunkPlugin + filtering via minChunks callback</h1>
+
+<script>
+  window.onerror = function () {
+    alert('an error occured!');
+  };
+</script>
+
+<script src="/common-b.js"></script>
+<script src="/common-a.js"></script>
+<script src="/entry1.js"></script>
