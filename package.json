@@ -13,7 +13,7 @@
     "webpack": "^1.13.2"
   },
   "optionalDependencies": {
-    "eslint": "^3.4.0",
+    "eslint": "^4.18.1",
     "eslint-config-eslint": "^4.0.0",
     "eslint-plugin-babel": "4.1.1"
   }
