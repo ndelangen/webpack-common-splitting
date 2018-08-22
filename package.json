@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^1.13.2"
+    "webpack": "^4.17.1"
   },
   "optionalDependencies": {
     "eslint": "^3.4.0",
